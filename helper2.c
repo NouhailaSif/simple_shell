@@ -47,7 +47,7 @@ int len = _strlen(st);
 * @NS: integer
 * Return: 0 if success
 */
-void *_realloc(void *pointer, unsignedint NS)
+void *_realloc(void *pointer, unsigned int NS)
 {
 char *h;
 unsigned int o;

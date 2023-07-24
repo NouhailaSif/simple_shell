@@ -54,9 +54,9 @@ void _data(data *t, const char *sh_name);
 void read_command(data *t);
 void _perr(const char *st1, const char *st2);
 void _tr(char *st);
-void *_realloc(void *pointer, unsignedint NS);
+void *_realloc(void *pointer, unsigned int NS);
 void s_process(data *t);
-void hand_sig(intsig);
+void hand_sig(int sig);
 void _exe(data *t);
 char *_getenv(char *nom);
 int _whix(data *t);
@@ -70,7 +70,7 @@ char *_strdup(const char *st);
 int _isnumber(const char *stat);
 int _isdigit(int j);
 #define READ_BUFFER_SIZE 1024
-ssize_tmy_getline(char **Lp, size_t *n, FILE *stream);
+ssize_t my_getline(char **Lp, size_t *n, FILE *stream);
 
 
 #endif
